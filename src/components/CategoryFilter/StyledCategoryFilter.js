@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const StyledCategoryFilter = styled('div')`
-	margin: 12px 0;
+	margin: 16px;
 	>select {
 		padding: 12px 0;
 		width: 200px;

@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 const StyledProductDetail = styled('div')`
+	max-width: 900px;
+	margin: 16px auto;
 	display: flex;
 	@media (max-width: 600px) {
 		flex-direction: column;
@@ -18,7 +20,7 @@ export const StyledLeftPanel = styled('div')`
 `;
 
 export const StyledRightPanel = styled('div')`
-	margin-top: 16px;
+	margin: 16px;
 	@media (min-width: 600px) {
 		flex: 70%;
 	}
