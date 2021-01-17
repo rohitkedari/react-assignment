@@ -15,6 +15,9 @@ const StyledProductList = styled('ul')`
 		 grid-template-columns: repeat(4, 1fr);
 	}
 	>li {
+		@media (max-width: 600px) {
+			margin: 0px 16px;
+		}
 		>a {
 			text-decoration: none;
 			color: #000000;

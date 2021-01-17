@@ -6,7 +6,7 @@ const StyledCategoryFilter = styled('div')`
 		padding: 12px 0;
 		width: 200px;
 		font-size: 18px;
-		margin: 0px 12px;
+		margin: 4px 20px;
 	}
 	>h3 {
 		display: inline;
