@@ -61,13 +61,13 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ![Product list - mobile](screenshots/ProductList_screen_1.JPG)
 ### Product list - desktop
 
-![Product list - mobile](screenshots/ProductList_screen_1.JPG)
+![Product list - desktop](screenshots/ProductList_screen_2.JPG)
 ### Product details - mobile
 
 ![Product list - mobile](screenshots/ProductDetail_screen_1.JPG)
 ### Product details - desktop
 
-![Product list - mobile](screenshots/ProductDetail_screen_2.JPG)
+![Product list - desktop](screenshots/ProductDetail_screen_2.JPG)
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
