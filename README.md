@@ -14,6 +14,22 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+### `npm run storybook`
+
+Runs the storybook to view individual component.\
+Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm run start-api`
+
+Runs the mock api server using json-server, before this you need to install json-server npm package globally using command `npm install -g json-server`.\
+Open [http://localhost:3001](http://localhost:3001) to view api response.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\

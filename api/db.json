@@ -1,0 +1,102 @@
+{
+	"categories": [{
+		"id": 1,
+		"name": "Laptops"
+	}, {
+		"id": 2,
+		"name": "Mobiles"
+	}, {
+		"id": 3,
+		"name": "Speakers"
+	}],		
+	"products": [{
+		"id": 1,
+		"name": "Lenovo",
+		"imageUrl": "<dummyURL>",
+		"categoryId": 1
+	}, {
+		"id": 2,
+		"name": "Mac",
+		"imageUrl": "<dummyURL>",
+		"categoryId": 1
+	}, {
+		"id": 3,
+		"name": "Dell",
+		"imageUrl": "<dummyURL>",
+		"categoryId": 1
+	},{
+		"id": 4,
+		"name": "Apple IPhone 12",
+		"imageUrl": "<dummyURL>",
+		"categoryId": 2
+	}, {
+		"id": 5,
+		"name": "Samsung Galaxy S",
+		"imageUrl": "<dummyURL>",
+		"categoryId": 2
+	}, {
+		"id": 6,
+		"name": "JBL",
+		"imageUrl": "<dummyURL>",
+		"categoryId": 3
+	}],
+	"productDetails": [
+		{
+			"id": 1,
+			"name": "Lenovo",
+			"imageUrl": "<dummyURL>",
+			"description": "Dummy description",
+			"category": {
+				"id": 1,
+				"name": "Laptop"
+			}
+		},
+		{
+			"id": 2,
+			"name": "Mac",
+			"imageUrl": "<dummyURL>",
+			"description": "Dummy description",
+			"category": {
+				"id": 1,
+				"name": "Laptop"
+			}
+		},
+		{
+			"id": 3,
+			"name": "Dell",
+			"imageUrl": "<dummyURL>",
+			"description": "Dummy description",
+			"category": {
+				"id": 1,
+				"name": "Laptop"
+			}
+		},
+		{
+			"id": 4,
+			"name": "Apple IPhone 12",
+			"imageUrl": "<dummyURL>",
+			"description": "Dummy description",
+			"category": {
+				"id": 2,
+				"name": "Mobiles"
+			}
+		}, {
+			"id": 5,
+			"name": "Samsung Galaxy S",
+			"imageUrl": "<dummyURL>",
+			"description": "Dummy description",
+			"category": {
+				"id": 2,
+				"name": "Mobiles"
+			}
+		}, {
+			"id": 6,
+			"name": "JBL",
+			"imageUrl": "<dummyURL>",
+			"description": "Dummy description",
+			"category": {
+				"id": 3,
+				"name": "Speakers"
+			}
+		}]		
+}
