@@ -9,7 +9,7 @@ const ProductListContainer = ({categoryId}) => {
 	const {
 		categories,
 		selectedCatId,
-		setSelectedCatId
+		changeSelectedCategory
 	} = useCategories(categoryId);
 	const {products} = useProducts(selectedCatId);
 
@@ -18,7 +18,7 @@ const ProductListContainer = ({categoryId}) => {
 			<CategoryFilter
 				categories={categories}
 				selectedCatId={selectedCatId}
-				onCategorySelected={setSelectedCatId}
+				onCategorySelected={changeSelectedCategory}
 			/>
 			<ProductList products={products}/>
 		</> :

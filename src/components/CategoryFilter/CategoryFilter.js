@@ -7,13 +7,15 @@ const CategoryFilter = ({ categories, selectedCatId, onCategorySelected }) => {
 
 	const onChangeHandler = (e) => {
 		const selectedValue = parseInt(e.target.value);
+		if (onCategorySelected && selectedValue) {
+			onCategorySelected(selectedValue);
+		}
 		setValue(selectedValue);
 	};
+
 	useEffect(() => {
-		if (onCategorySelected && value) {
-			onCategorySelected(value);
-		}
-	}, [value]);
+		setValue(selectedCatId);
+	}, [selectedCatId]);
 	return (
 		<StyledCategoryFilter>
 			<h3>Category:</h3>
